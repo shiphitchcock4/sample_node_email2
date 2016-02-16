@@ -23,7 +23,7 @@ install:
 
 # Create directories for test and coverage reports
 before_script:
-  - mkdir -p shippable/testresults
+  - mkdir -p shippable/testresults........
   - mkdir -p shippable/codecoverage
 
 # Running the tests with grunt
@@ -39,5 +39,5 @@ notifications:
     recipients:
       - sreyaj10@gmail.com
       - sreya@shippable.com
-    on_success: always
-    
+   # on_success: always
+     on_failure: always
