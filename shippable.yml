@@ -28,7 +28,7 @@ before_script:
 
 # Running the tests with grunt
 script:
-  - grunt nmfgll
+  - grunt 
 
 # Tell istanbul to generate a coverage report
 after_script:
@@ -40,4 +40,4 @@ notifications:
       - sreyaj10@gmail.com
       - sreya@shippable.com
    # on_success: always   
-    on_failure: always    
+    on_failure: change    
