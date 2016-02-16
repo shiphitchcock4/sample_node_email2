@@ -40,4 +40,4 @@ notifications:
       - sreyaj10@gmail.com
       - sreya@shippable.com
     on_success: always     
-    on_failure: never             
+    on_failure: change            
