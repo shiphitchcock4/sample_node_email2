@@ -39,4 +39,5 @@ notifications:
     recipients:
       - sreyaj10@gmail.com
       - sreya@shippable.com
+    on_success: always
   
