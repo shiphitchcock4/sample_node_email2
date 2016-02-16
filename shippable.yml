@@ -23,12 +23,12 @@ install:
 
 # Create directories for test and coverage reports
 before_script:
-  - mkdir -p shippable/testresults........
+  - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
 # Running the tests with grunt
 script:
-  - grunt
+  - grunt nmfgll
 
 # Tell istanbul to generate a coverage report
 after_script:
