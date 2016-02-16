@@ -28,7 +28,7 @@ before_script:
 
 # Running the tests with grunt
 script:
-  - grunt jkj
+  - grunt 
 
 # Tell istanbul to generate a coverage report
 after_script:
